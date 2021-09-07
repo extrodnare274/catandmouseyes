@@ -39,7 +39,7 @@ function draw() {
 
     if(cat.x - mouse.x < (cat.width - mouse.width)/2) {
               cat.velocityX = 0 
-              cat.x = 300
+              cat.x = 400
               cat.addAnimation("catlick", catimg3)
               cat.scale = 0.2
               cat.changeAnimation("catlick")
